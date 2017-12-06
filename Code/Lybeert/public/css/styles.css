@@ -1,0 +1,204 @@
+/* Positionering app vs scherm */
+html {
+     background: #979797;
+}
+
+body {
+     width: 417px;
+     height: 736px;
+     background: #333333;
+     font-family: 'bebas', sans-serif;
+/* Positionering app */
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     word-spacing: .6em;
+
+}
+
+.marge {
+     width: 320px;
+     padding-left: 47px;
+     padding-right: 47px;
+}
+
+.fa {
+  color: #FFDF30;
+}
+
+.topicon {
+  text-align: center;
+  width: 100px;
+  margin: 55px auto 0 auto;
+}
+
+.returnarrow {
+  position: absolute;
+  top: 640px;
+  left: 45px;
+  color: #FFDF30;
+}
+
+/*nav*/
+nav {
+  height: 550px;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style-type: none;
+  display: block;
+  position: absolute;
+  padding-top: 18.5px;
+}
+
+nav .fa {
+  color: #FFDF30;
+}
+
+#icon1 {
+  top: 220px;
+  right: 250px;
+}
+
+#icon2 {
+  top: 220px;
+  left: 250px;
+}
+
+#icon3 {
+  top: 420px;
+  right: 250px;
+}
+
+#icon4 {
+  top: 420px;
+  left: 250px;
+}
+
+#icon5 {
+  top: 600px;
+}
+
+#navimg {
+  margin-top: 20px;
+}
+
+a {
+     text-decoration: none;
+     color: inherit;
+}
+
+.achtergrondAfbeelding {
+     /*background-image: url("/img/achtergrondAfbeelding2.jpg");*/
+     background: #333333;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+}
+
+.achtergrondAfbeelding img {
+  display: block;
+  width: 150px;
+  margin: 60px auto 0 auto;
+}
+
+/*tekst */
+
+h1 {
+     line-height: normal;
+     font-size: 16px;
+     text-align: center;
+     color: #FFDF30;
+     margin: 10px 0 50px 0;
+}
+
+h2 {
+     font-weight: 700;
+     line-height: normal;
+     font-size: 30px;
+     text-align: center;
+     color: #000000;
+     margin-top: 140px;
+     margin-bottom: 10px;
+     width: 320px;
+}
+
+h2.white {
+     color: #F2F2F2;
+}
+
+p {
+    font-weight: lighter;
+    padding: 0 0 1px 0;
+    border-bottom: 1px solid #FFDF30;
+    margin: 0 0 30px 0;
+     line-height: normal;
+     font-size: 14px;
+     text-align: left;
+     color: #FFDF30;
+}
+
+#vertrek {
+  float: left;
+  margin-right: 100px;
+}
+
+#aankomst {
+  float: right;
+  display: inline-block;
+}
+
+.jackskencap p {
+  position: relative;
+  color: darkgrey;
+  text-align: center;
+  top: 480px;
+  opacity: .2;
+}
+
+/* Knoppen */
+
+.knop1-3 {
+     position: relative;
+     width: 320px;
+     height: 39px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 10px;
+     background: #FFDF30;
+}
+
+h3.knop1Geel {
+     font-weight: 700;
+     font-size: 16px;
+     text-align: center;
+     color: #333333;
+     line-height: 39px;
+     vertical-align: middle;
+}
+
+.h2welkomstscherm {
+     position: absolute;
+     top: 200px;
+     font-weight: 400;
+     left: 50%;
+     transform: translate(-50%);
+}
+
+.knopGeelwelkomstscherm {
+     position: absolute;
+     top: 550px;
+     left: 50%;
+     transform: translate(-50%);
+}

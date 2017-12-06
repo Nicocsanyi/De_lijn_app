@@ -1,0 +1,17 @@
+{
+  "name": "De Lijn APP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+  ],
+  "author": "Matthias Lybeert, Nico Csanyi, Thomas Borms, Noah Storms",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}
