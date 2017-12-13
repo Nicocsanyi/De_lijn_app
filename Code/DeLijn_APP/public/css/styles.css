@@ -23,6 +23,45 @@ body {
      padding-right: 47px;
 }
 
+.intro-search .input, .intro-search select, .intro-search .button, .intro-search .disabled.button, .intro-search .selector {
+    border-color: #131a20;
+}
+screen-3.37.1.css:7
+.search-start .input {
+    padding-left: 56px;
+}
+screen-3.37.1.css:7
+.clearableinput.input {
+    padding-right: 40px;
+}
+
+.is-accessible-hidden, .outside-viewport {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+label {
+  color: #FFDF30;
+}
+
+label p {
+  margin: 10px 0 5px 0;
+}
+
+.tijden {
+  margin-bottom: 20px;
+}
+
+.search-input input {
+  margin-bottom: 10px;
+}
+
 .fa {
   color: #FFDF30;
 }
