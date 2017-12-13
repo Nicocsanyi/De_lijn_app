@@ -42,4 +42,12 @@ root.get('/info', function(req, res) {
   });
 });
 
+//verkooppunten
+root.get('/result', function(req, res) {
+  res.render("result", {
+       page_name: "result"
+  });
+});
+
+
 module.exports = root;
