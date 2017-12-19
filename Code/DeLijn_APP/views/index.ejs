@@ -1,19 +1,24 @@
-<% include header %>
-
-<div class="achtergrondAfbeelding">
-      <img src="img/delijn.png" alt="logodelijn">
-     <h2 class="white h2welkomstscherm">Welkom op onze <br> Delijn app!</h2>
-
-     <div class="knop1-3 knopGeelwelkomstscherm">
-          <h3 class="knop1Geel"><a href="/home">Ga verder</a></h3>
-     </div>
-
-     <div class="knop2-1 knopWitwelkomstscherm">
-          <h3 class="knop2Wit"><a href="/aanmelden"></a></h3>
-     </div>
-     <div class="jackskencap"><p>© Jacksken cap</p></div>
-</div>
-
-
-
-<% include footer %>
+<% include header%>
+  <a href="/"><img src="/img/De_Lijn.svg" alt="de lijn" class="logo"></a>
+  <a href="/haltes">
+    <button class="btn btn_haltes ">
+        <i class="fa fa-bus fa-5x" aria-hidden="true"></i>
+    </button>
+</a>
+  <a href="/map">
+    <button class="btn btn_kaart">
+        <i class="fa fa-map fa-5x" aria-hidden="true"></i>
+    </button>
+</a>
+  <a href="/vertrekken">
+    <button class="btn btn_vertrek">
+        <i class="fa fa-flag fa-5x" aria-hidden="true"></i>
+    </button>
+</a>
+  <a href="/info">
+    <button class="btn btn_info">
+        <i class="fa fa-info fa-5x i" aria-hidden="true"></i>
+    </button>
+</a>
+<p id="copyright">© Jacksken Cap</p>
+  <% include footer%>

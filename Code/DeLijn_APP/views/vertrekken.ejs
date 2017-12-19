@@ -1,0 +1,10 @@
+<% include header%>
+  <div class="returnarrow"><a href="/"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a></div>
+  <div class="topicon"><i class="fa fa-flag fa-3x" aria-hidden="true"></i></div>
+  <h1>Vertrekkend<br>op halte</h1>
+  <form method="get" action="/vertrekken">
+    <input type="text" name="halte_id" value="" class="inputhalte" required placeholder="haltenummer">
+    <input type="submit" class="submit" value="Op zoek">
+  </form>
+  <p id="copyright">© Jacksken Cap</p>
+  <% include footer%>
